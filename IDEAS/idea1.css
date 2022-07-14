@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+html{
+    background-image:url(windmill.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+   color: rgb(255, 255, 255);
+   text-align: center;
+   margin-top: 1000px;
+ font-size: 50PX;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sub{
+  color: #ffff;
+  text-align: center;
+  font-size:20px ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*LISTS*/
+
+.topopt{
+  background-color: rgb(30, 4, 106);
+  padding: 10px;
+  text-align: right;
+}
+
+.u1{
+color: #ffff;
+text-decoration: none;
+padding: 12px;
+}
+.u2{
+  color: #ffff;
+  text-decoration: none;
+  padding: 12px;
+}
+.u3{
+  color: #ffff;
+  text-decoration: none;
+  padding: 12px;
+}
+.u4{
+  color: #ffff;
+  text-decoration: none;
+  padding: 12px;
+}
+
+
+
+
+
+/*
+.ul1{
+    margin-top: 10px;
+    background-color: #ffff;
+  text-align: center;
+    width: 200px;
+    height: 250px;
+  list-style-type:none;
+margin-left: auto;
+margin-right: auto;
+  font-size: xx-large;
+  border: solid 5px red;
+}
+
+
+<div class="options">
+<select name="x" id="x">
+<option value="">Red</option>
+<option value="">Green</option>
+<option value="">Blue</option>
+<option value="">Black</option>
+<option value="">Orange</option>
+</div>
+</select>
+*/
+
+
+/* BUTTONS////////////////////////*/
+article{
+text-align: center;
+margin-top: 40px;
+
+}
+
+.b1{
+  padding: 9px;
+  width: 100px;
+  border-radius: 25px;
+  border: none;
+  margin-right: 10px;
+  
+}
+.b1:hover{
+  color: #ffff;
+background-color: transparent;
+transition: 0.4s;
+font-size: 20px;
+
+}
+
+.b2{
+  padding: 9px;
+  width: 100px;
+  border-radius: 25px;
+  border: none;
+  margin-left: 10px;
+}
+.b2:hover{
+  color: #ffff;
+  background-color: transparent;
+  transition: 0.4s;
+  font-size: 20px;
+  
+}
+
+.b3m{
+  text-align: center;
+margin-top: 10px;
+}
+.b3{
+  padding: 9px;
+  width: 200px;
+  border-radius: 25px;
+  border: none;
+ text-align: center;
+}
+.b3:hover{
+  font-size: 20px;
+  background-color: transparent;
+  transition: 0.4s;
+  color: rgb(255, 255, 255);
+}
+

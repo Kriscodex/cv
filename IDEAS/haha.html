@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" id="nav_search_form"> 
+        <p><input type="text" placeholder="Search Careers And People" class="search" id="nav_search_q" /></p> 
+        <input type="submit" style="visibility:hidden;"> 
+        <script type="text/javascript"> 
+          $('#nav_search_form').submit(function() {
+            Company.SearchBox.search();
+            return false;
+          });
+        </script> 
+      </form>
+</body>
+<link rel="stylesheet" href="haha.css">
+</html>
+
+
